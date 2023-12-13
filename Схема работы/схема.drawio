@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" modified="2023-12-13T10:47:03.695Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="6RohkARzeJTAqXs3UpbU" version="22.1.8" type="device">
+  <diagram name="Страница — 1" id="B9HWQUh9dsNyy1qx--05">
+    <mxGraphModel dx="1420" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LZRYBnyz-vhXjxjj_8Jo-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LZRYBnyz-vhXjxjj_8Jo-4" target="LZRYBnyz-vhXjxjj_8Jo-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZRYBnyz-vhXjxjj_8Jo-7" value="Скачать &lt;br&gt;вручную&lt;br&gt;архив" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LZRYBnyz-vhXjxjj_8Jo-6">
+          <mxGeometry x="-0.1667" y="-1" relative="1" as="geometry">
+            <mxPoint x="4" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZRYBnyz-vhXjxjj_8Jo-4" value="Web-site:&lt;br&gt;Фонд ООП ТПУ (up.tpu.ru)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="220" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LZRYBnyz-vhXjxjj_8Jo-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LZRYBnyz-vhXjxjj_8Jo-5" target="LZRYBnyz-vhXjxjj_8Jo-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZRYBnyz-vhXjxjj_8Jo-16" value="pdf2image" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LZRYBnyz-vhXjxjj_8Jo-15">
+          <mxGeometry x="-0.475" y="1" relative="1" as="geometry">
+            <mxPoint x="27" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZRYBnyz-vhXjxjj_8Jo-5" value="Каталог:&lt;br&gt;.pdf-файлы" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="220" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LZRYBnyz-vhXjxjj_8Jo-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LZRYBnyz-vhXjxjj_8Jo-10" target="LZRYBnyz-vhXjxjj_8Jo-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZRYBnyz-vhXjxjj_8Jo-13" value="Распаковать" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LZRYBnyz-vhXjxjj_8Jo-12">
+          <mxGeometry x="-0.4" y="-1" relative="1" as="geometry">
+            <mxPoint x="10" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZRYBnyz-vhXjxjj_8Jo-10" value="Архив:&lt;br&gt;.pdf-файлы" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="120" y="130" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LZRYBnyz-vhXjxjj_8Jo-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LZRYBnyz-vhXjxjj_8Jo-14" target="LZRYBnyz-vhXjxjj_8Jo-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="475" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZRYBnyz-vhXjxjj_8Jo-19" value="OCR, &lt;br&gt;pytesseract" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LZRYBnyz-vhXjxjj_8Jo-18">
+          <mxGeometry x="-0.1478" y="1" relative="1" as="geometry">
+            <mxPoint x="11" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZRYBnyz-vhXjxjj_8Jo-14" value="Каталог:&lt;br&gt;.png-файлы" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="130" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LZRYBnyz-vhXjxjj_8Jo-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LZRYBnyz-vhXjxjj_8Jo-17" target="LZRYBnyz-vhXjxjj_8Jo-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZRYBnyz-vhXjxjj_8Jo-22" value="Natasha: &lt;br&gt;segmenter,&amp;nbsp;&lt;br&gt;morph_tagger,&lt;br&gt;morph_vocab,&lt;br&gt;lemma" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LZRYBnyz-vhXjxjj_8Jo-21">
+          <mxGeometry x="-0.2727" y="-3" relative="1" as="geometry">
+            <mxPoint x="10" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZRYBnyz-vhXjxjj_8Jo-17" value="Датасет:&lt;br&gt;распознанное содержание дисциплин" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="410" y="210" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LZRYBnyz-vhXjxjj_8Jo-20" value="Датасет:&lt;br&gt;нормализованное содержание дисциплин&lt;br&gt;datase_res.xlsx" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="660" y="210" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LZRYBnyz-vhXjxjj_8Jo-23" value="Датасет:&lt;br&gt;нормализованное содержание дисциплин&lt;br&gt;datase_res.xlsx" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="660" y="340" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LZRYBnyz-vhXjxjj_8Jo-25" value="dataset.xlsx" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.document;" vertex="1" parent="1">
+          <mxGeometry x="519" y="260" width="21" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
